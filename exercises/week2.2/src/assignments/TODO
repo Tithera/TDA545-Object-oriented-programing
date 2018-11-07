@@ -1,0 +1,61 @@
+**** Laboration 2 ***
+
+Till detta skall ENDAST används det vi gått igenom vecka 1-2
+
+För ev. vidare instruktioner se i respektive fil
+
+1.   Utgå från basics/Methods och skriv metoder för följande.
+
+    a)  En metod sign(int n) som returnerar -1, 0 elle 1 om n är
+        negativt, noll respektive positivt heltal.
+    b)  Skriv en metod som beräknar n! (fakultet) givet n.
+    c)  Skriv en metod som beräknar största gemensamma nämnare för två heltal.
+        Använd Euclides metod, se webben.
+
+2. Utgå från basics/MethodsWithArrays och skriv metoder för följande;
+
+    a)  En metod som givet en array av heltal beräknar summan av dessa.
+    b)  En metod som returnerar index till största värdet i en heltals-array
+    c)  En metod som räknar antal förekomster av ett visst tal i en heltals-array
+
+3.  Gör klart spelet Dice Wars, se product/DiceWars. Mycket är förenklat (hårdkodat): Antal spelare, spelplanen, regler m.m.
+    Exempelkörning
+
+    Welcome to Dice Wars "lite!"
+
+    pelle:2--fia:3--lisa:2          (Spelet startar och "kartan" visas)
+         \     |       |            (Strecken visar vilka länder som har gränser)
+    fia:3--lisa:1--pelle:3          (Pelle har 3 tärningar på land 4, räkna rad för rad, börja på 0)
+       |       |    /  |
+    pelle:1--fia:1--lisa:3
+
+    -----------------------------------------
+    (pelle) Action > a              (Pelle väljer attack ...)
+    (pelle) Select from > 5         (... från land 5 till land 4)
+    (pelle) Select to > 4
+    pelle:13 lisa:2                 (Resultat av tärningskast, Pelle vann)
+
+    pelle:2--fia:3--lisa:2
+         \     |       |
+    fia:3--pelle:2--pelle:1         (Pelle flyttar 2 tärningar från 5 till 4, lisa förlorar landet
+       |       |    /  |             och pelle blir ny ägare. En tärning måste lämnas i land 5)
+    pelle:1--fia:1--lisa:3
+
+    -----------------------------------------
+    (pelle) Action > n              (Pelle kan fortsätta men väljer att avbryta, nästa spelare)
+
+    pelle:2--fia:3--lisa:2
+         \     |       |
+    fia:3--pelle:4--pelle:2         (Peller får så lika många nya tärningar som antal ländar han behärskar)
+       |       |    /  |            (Tärningerna slumpas ut i pelles länder)
+    pelle:2--fia:1--lisa:3
+
+    -----------------------------------------
+    (fia) Action >                  (Fia är nästa spelare, o.s.v.)
+    ...
+
+    Game over!
+    Winner is lisa!
+
+4.  Gör ett grafiskt program som målar "modern konst" (hitta på något eget), se basic/ModernArt (rita en gubbe)
+

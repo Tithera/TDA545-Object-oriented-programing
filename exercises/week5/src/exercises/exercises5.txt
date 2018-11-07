@@ -1,0 +1,21 @@
+
+**** Exercises week 5 ***
+
+-   Exercises are helpful if you choose the harder version of lab4.
+    Else they are not needed in labs, but of course increases your skills
+    If new to programming probably should use these later as examples of harder problems.
+
+
+Exercises
+---------
+1.  See Ex1SplitInteger. Split an integer into a sum of n random terms (return array or list).
+    Example: Split 7 into 4 integers
+    Some possible solutions
+        [4, 2, 1, 0]
+        [0, 1, 2, 4]
+        [0, 2, 3, 2]
+        [2, 3, 1, 1]
+        [3, 3, 1, 0]
+
+    Method must be reasonable efficient and have a reasonable distribution of the n integers.
+

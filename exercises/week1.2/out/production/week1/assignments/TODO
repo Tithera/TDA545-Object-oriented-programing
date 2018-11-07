@@ -1,0 +1,90 @@
+
+**** Laboration 1 ***
+
+Till detta skall ENDAST används det vi gått igenom vecka 1, se slides
+
+Förberedelse
+-------------
+Fixa ett snabbkommando för att formatera koden (snygga till den, göra den läsbar, indentera)
+- Gå till File > Settings ... > Appearance and Behaviour > Keymap
+- I fönstret till höger. Välj Main menu > Code > Refomat code.. Tryck Ctrl och F
+  ( d.v.s. Ctrl F formatera koden).
+- Klart
+
+
+Uppgifter
+---------
+För ev. vidare instruktioner se respektive fil
+
+1.  Skriv ett program som beräknar när påskdagen infaller givet ett visst år (1900-2099),
+    OBS! Vi antar att användaren alltid skriver ett giltigt årtal (ingen kontroll).
+    En algoritm för beräkningen ges av:
+
+    A = årtal mod 19 ( mod = modulo = resten då årtal divideras med 19)
+    B = årtal mod 4
+    C = årtal mod 7
+    S = 19 * A + 24
+    D = S mod 30
+    T = 2 * B + 4 * C + 6 * D + 5
+    E = T mod 7
+    datum = 22 + D + E
+
+    Om datum är mindre än 32 infaller påskdagen på detta datum i
+    mars. Annars sätts datum = D + E - 9 och påskdagen inträffar då
+    detta datum i april,fast med två undantag.
+    - Om datum = 26 förläggs påskdagen den 19 april.
+    - Om datum = 25 samtidigt som A = 16 och D = 28 firar vi den 18
+    april istället.
+
+    Utgå från basics/EasterDay och gör klart. Programmet skall fungera enligt:
+
+    Input a year (1900-2099) > 2016     (enter)
+    Easter day for 2016 is : 27/3
+
+
+2.  Skriv ett program som skriver ut följande (samliga utskifter skall använda en while-loop):
+
+    a)  -20, -19, ..., 3
+    b)  10, 9, ..., -10
+    c)  5, 10, ..., 95, 100
+    d)  0.0, 0.3, ... 8.7, 9.0
+    e)  ½, ¼, ...1/256 (inte 0.5, 0.25...)
+
+    Utgå från basics/WhileLoop
+
+
+3.  Gör klart basics/SumAvg. Programmet summerar ett antal heltal och skriver därefter ut
+    antal tal, summan och medelvärdet. Programmet skall fungera enligt (negativt tal avbryter inmatningen):
+
+    > 1
+    > 2
+    > 3
+    > 5
+    > -1
+    Count=4 Sum=11 Avg=2.75
+
+    Tips: Använd "loop and a half mönstret".
+
+
+4.  Gör ett program för spelet Nim, see filen product/Nim. Exempelkörning:
+
+    Welcome to till NIM
+    There's 13 coins in the pile
+    Pick coins > 2
+    Player took 2
+    There's 11 coins in the pile
+    Computer took 3
+    There's 8 coins in the pile
+    Pick coins > 1
+    Player took 1
+    There's 7 coins in the pile
+    Computer took 3
+    There's 4 coins in the pile
+    Pick coins > 3
+    Player took 3
+    Game over. Winner is: Human
+
+    Programmet skall kontrollera att användaren bara tar ett giltigt antal mynt.
+
+
+5. (Uber) Gör en grafisk version an Nim, se uber/Nim

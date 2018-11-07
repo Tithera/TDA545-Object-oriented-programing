@@ -1,0 +1,47 @@
+
+*** Laboration 0 ***
+
+Den här filen innehåller instruktioner för program ni skall skriva (= labbar).
+
+Intro
+-----
+Alla laborationer distribueras som IntelliJ-projekt.
+Det du ser just nu är ett IntelliJ-projekt. Alla projekt har en TODO-fil
+med instruktioner och uppgifter (på samma sätt som denna fil).
+
+Ett projekt innehåller ett antal mappar
+- Mapparna visas i vänstra fönstret under fliken Project (den skall ni alltid ha framme)
+- Den *ENDA* mappen vi använder är src (=source=Java-kod). src skall var blå, om ej kontakta handledare.
+- Allt vi skriver skall finnas i (eller hamna i) någon undermapp till src.
+
+src-mappen innehåller följande undermappar
+- assignments, de program ni skall skriva
+- assignments/basics, mindre uppgifter som övar ett specifikt koncept
+- assignments/product, en lite större uppgift, ett "helt" program
+- assignments/uber, innehåller mer utmanande uppgifter för dig som kan en del. Frivilliga att göra!
+- samples (innehåller kodexempel)
+
+
+Exekvering i IntelliJ
+-----------------------
+För ett exekvera ett program, markera en fil och klicka Run (grön triangel,
+finns på flera ställen, uppe till höger i verktygsraden eller vänsterklicka i kodfönstret)
+För att avbryta ett program klickar man Stop (röd fyrkant) nere till vänster.
+
+
+Uppgifter
+---------
+För ev. vidare instruktioner se respektive fil
+
+1.  Kör programmet samples/HelloWorld
+
+2.  Skriv klart programmet /assignments/basics/HelloMe
+
+3.  Kör programmet samples/F2C (kör flera gånger med olika värden)
+
+4.  Skriv klart programmet /assignments/product/BMI genom att härma hur F2C fungerar.
+    Programmet skall fungera enligt;
+
+    Please, enter your weight (kg) > 80          (enter)
+    Please, enter your height (m) > 1.78         (enter)
+    BMI = 25.24933720489837
